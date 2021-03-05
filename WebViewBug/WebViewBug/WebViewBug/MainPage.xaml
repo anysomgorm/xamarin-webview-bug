@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:custom="clr-namespace:WebViewBug"
+             x:Class="WebViewBug.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+            <Label Text="WORKING: running Xamarin Forms 4.8.0.1687"></Label>
+            <custom:CustomWebView Source="https://github.com/xamarin/Xamarin.Forms/issues/13575"></custom:CustomWebView>
+        </StackLayout>
+    </ScrollView>
+    
+
+</ContentPage>
